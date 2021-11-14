@@ -13,7 +13,13 @@
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
     <!--font-->
     <title>Game Store</title>
+    <style id = 'stylebg'>
+      body{
+        background-color: #395284;
+      }
+      </style>
   </head>
+
   <body>
     <nav
       class="navbar navbar-expand-md navbar-dark bg-dark"
@@ -67,11 +73,17 @@
           class="fa fa-trash-o ml-2"
           style="font-size: 24px; cursor: pointer"
         ></i>
+
+        <!--theme-->
+        <i 
+          id = "button-theme"
+          class = "fa fa-moon-o ml-5"
+          style="font-size: 24px; cursor: pointer;"></i>
       </div>
       
     </nav>
 
-    
+    <!-- modal ในการ popup หน้า login ขึ้นมา-->
     <div class="modal" role="dialog" id="loginModal">
       <div class="modal-dialog">
         <div class="modal-content">

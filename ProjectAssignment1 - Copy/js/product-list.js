@@ -5,7 +5,7 @@ const productContainer = document.querySelector("#product-container");
 
 productContainer.style.cssText = `margin : 30px;`;
 
-productContainer.firstElementChild.style.cssText = `font-size : 36px;`;
+productContainer.firstElementChild.style.cssText = `font-size : 36px; color : white`;
 
 const productElement = document.querySelector("#products");
 productElement.setAttribute(
