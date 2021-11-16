@@ -27,7 +27,7 @@ export let cart = {
     cart.items = cartEmpty;
     alert("Your cart is empty!");
     console.log(this.items);
-    localStorage.clear();
+    localStorage.removeItem('InCarts');
     cart.saveCart();
   },
   countInCart: function () {
